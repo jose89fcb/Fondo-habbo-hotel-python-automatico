@@ -13,8 +13,15 @@ Este es un bot de Discord diseñado para monitorear el fondo del sitio web de **
 
 Antes de ejecutar el bot, asegúrate de tener lo siguiente:
 
-- Python 3.7.0: https://www.python.org/downloads/release/python-370/
-- Librerías necesarias (se instalan automáticamente desde el archivo `requirements.txt`).
+- **Python 3.7.0 o superior**: Puedes descargar Python desde [aquí](https://www.python.org/downloads/release/python-370/).
+  
+- **Librerías necesarias**: Puedes instalar todas las dependencias necesarias utilizando el archivo `requirements.txt`. Las principales librerías son:
+
+  - `discord.py`: Librería para interactuar con la API de Discord.
+  - `requests`: Librería para realizar solicitudes HTTP (usada para descargar la imagen).
+  - `Pillow`: Librería para manejar y procesar imágenes.
+
+  Las librerías se instalan automáticamente desde el archivo `requirements.txt`.
 
 ## Instalación
 
