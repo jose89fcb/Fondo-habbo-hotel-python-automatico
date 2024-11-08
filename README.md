@@ -1,23 +1,27 @@
-# Habbo Hotel Fondo Bot
+# Fondo Habbo Hotel Bot
 
-Este bot de Discord está diseñado para monitorear el fondo de la página de Habbo Hotel y enviarlo automáticamente a un canal de Discord cada vez que se detecte un cambio en la imagen del fondo.
+Este es un bot de Discord diseñado para monitorear el fondo del sitio web de **Habbo Hotel** y enviar una notificación con la nueva imagen cuando haya un cambio en el fondo. El bot monitorea constantemente el fondo de la página y, si detecta que la imagen ha cambiado, la envía automáticamente a un canal de Discord.
 
 ## Características
 
-- **Monitoreo constante**: El bot revisa la imagen del fondo de Habbo Hotel cada 30 segundos para detectar si ha cambiado.
-- **Detección de cambios**: Si el fondo cambia, el bot envía un mensaje con la nueva imagen a un canal de Discord específico.
-- **Evita spam**: El bot solo envía la imagen cuando detecta un cambio real en la imagen del fondo, evitando enviar la misma imagen repetidamente.
-- **Configuración fácil**: Solo necesitas configurar el canal de Discord donde se enviará la imagen y proporcionar un token para el bot.
-
-## ¿Cómo funciona?
-
-1. El bot descarga los datos de la página de Habbo Hotel para obtener la URL del fondo.
-2. Calcula el hash de la imagen actual.
-3. Compara el hash de la nueva imagen con el que tiene guardado en su archivo local.
-4. Si el hash es diferente (es decir, si la imagen cambió), el bot envía la nueva imagen a un canal de Discord y guarda el nuevo hash.
-5. Si no hay cambios en la imagen, el bot no enviará nada, evitando así el spam.
+- **Monitoreo de fondo**: Revisa el fondo de Habbo Hotel cada 30 segundos.
+- **Detección de cambios**: Si el fondo cambia, el bot envía automáticamente la nueva imagen al canal de Discord.
+- **Evita el spam**: Solo envía la imagen cuando detecta un cambio real en el fondo.
+- **Configuración sencilla**: Solo necesitas configurar el token de tu bot y el ID del canal de Discord donde deseas recibir las imágenes.
 
 ## Requisitos
 
-- Python 3.7 o superior
-- Librerías: `discord.py`, `requests`, `Pillow`, `hashlib`
+Antes de ejecutar el bot, asegúrate de tener lo siguiente:
+
+- Python 3.7 o superior.
+- Librerías necesarias (se instalan automáticamente desde el archivo `requirements.txt`).
+
+## Instalación
+
+### Paso 1: Clona este repositorio
+
+Clona este repositorio en tu máquina local con el siguiente comando:
+
+```bash
+git clone https://github.com/jose89fcb/Fondo-habbo-hotel-python-automatico.git
+cd Fondo-habbo-hotel-python-automatico
