@@ -13,7 +13,7 @@ Este es un bot de Discord diseñado para monitorear el fondo del sitio web de **
 
 Antes de ejecutar el bot, asegúrate de tener lo siguiente:
 
-- Python 3.7 o superior.
+- Python 3.7 https://www.python.org/downloads/release/python-370/
 - Librerías necesarias (se instalan automáticamente desde el archivo `requirements.txt`).
 
 ## Instalación
