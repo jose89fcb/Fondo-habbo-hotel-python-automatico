@@ -22,6 +22,7 @@ Antes de ejecutar el bot, asegúrate de tener lo siguiente:
   - `Pillow`: Librería para manejar y procesar imágenes.
 
   Las librerías se instalan automáticamente desde el archivo `requirements.txt`.
+pip install -r requirements.txt
 
 ## Instalación
 
